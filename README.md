@@ -17,3 +17,8 @@ essa etapa, a área de trabalho é composta pela aba Clientes com opção para a
 pela aba Fornecedores para acessar o Formulário de Fornecedores, pela aba Produtos para acessar o Formulário de Produtos, pela aba Vendas para acessar o Formulário de Vendas,
 pela aba de Configurações para interagir com a opção para troca de usuário e com a aba Sair responsável pela saída do sistema. Também possui um campo que preenche seu nome automaticamente
 dependendo do usuário logado, porém seus recursos são somente com o banco de dados instalado no sistema (MySQL e Apache integrado ao Xampp).
+
+02 - FormularioLogin.java
+O formulário de Login é a tela que antecede a Área de Trabalho, visto que seus campos para preenchimento são 'Email' e 'Senha' (já registrados no sistema no Formulário de Funcionários). Dependendo das informações que forem
+inseridas nesses campos, o usuário pode não ser logado devido a erros de digitação, pode acessar a Área de Trabalho para usuários com permissão de Administrador ou com permissão para Usuário. A tela contém botões responsáveis
+por tentar o acesso ao sistema 'Entrar' ou cancelar a entrada 'Cancelar'.
