@@ -72,6 +72,12 @@ autopreenche em R$, a 'Quantidade' desejada do produto escolhido e o 'Desconto e
 Subtotal a ser pago referente a quantidade escolhida. Após o preenchimento de todas as informações, o painel 'Total da Venda' te fornece o total a ser pago referente a compra e dois botões com opções para 'Pagamento' e
 'Cancelar' a compra.
 
+10 - FormularioPagamentos.java
+
+Após clicar em 'Pagamento' no FormulárioVendas.java, o sistema te direciona automaticamente para o preenchimento das informações referente ao pagamento da sua compra com opções distintas, sendo elas: 'Dinheiro',
+'Cartão' ou 'Cheque' juntamente com o campo 'Observações' cujo seu preenchimento é totalmente opcional. Os campos 'Troco' e 'Total' se autopreenchem com base no valor informado para pagamento. O botão 'PAGAR' finaliza
+o processo de compra.
+
 
 
 
