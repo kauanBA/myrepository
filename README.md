@@ -42,4 +42,9 @@ Funcionários onde podemos pesquisar quaisquer funcionários já registrados den
 O sistema para Cadastro de Fornecedores não distingue-se totalmente do Cadastro de Clientes, visto que possui as mesmas funções. Referente aos campos na aba 'Dados Pessoais', o programa conta com o preenchimento de
 'Nome', 'Email', 'Endereço', 'Bairro', 'RG', 'Celular', 'CEP', 'Cidade', 'CNPJ', 'Telefone', 'Número', 'Complemento' e uma caixa clicável para seleção de UF juntamente com os mesmos botões para 'NOVO' responsável por limpar os campos, 'SALVAR' para registrar um novo fornecedor dentro do banco de dados, 'EDITAR' para edição de qualquer dado e 'EXCLUIR' para deleção de qualquer fornecedor dentro do sistema. Ao lado o sistema conta com a aba 'Consulta de Fornecedores' onde conseguimos pesquisar todo e qualquer fornecedor já registrado no sistema.
 
+06 - FormularioProdutos.java
+O formulário para Cadastro de Produtos consiste no preenchimento de 'Descrição' (nome do produto), 'Preço' (em R$), uma caixa clicável para a definição do 'Fornecedor' (que pode ser registrada no Formulário de Fornecedores) e o campo de 'Qtd Estoque' que fornece a quantidade exata dos produtos que já existem no sistema ou que pode ser adicionada ao mesmo. Os botões cujas funções já foram detalhadas se resumem ao 'NOVO' para limpar os campos, 'SALVAR' para registrar um novo produto no banco de dados do sistema, o 'EDITAR' para alterar um dado referente ao produto escolhido e o 'EXCLUIR' para apagar um produto do banco de dados do sistema. Ao lado, o formulário conta com a aba Consulta de Produtos responsável por fornecer dados do produto pesquisado no campo 'Descrição' dentro da tabela abaixo integrada ao banco de dados do sistema.
+
+
+
 
