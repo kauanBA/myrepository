@@ -63,6 +63,15 @@ Formulário responsável pela pesquisa e detalhe das vendas já realizadas consi
 contendo o valor em R$ referente a venda e um campo para o preenchimento de Observações. Abaixo dos campos de preenchimento temos uma tabela integrada ao banco de dados do sistema contendo todas as informações
 referentes aos produtos e vendas já registrados.
 
+09 - FormularioVendas.java
+
+Sendo uma das telas mais robustas, o PDV (Ponto de Vendas) é responsável por realizar a venda para os Clientes com o preenchimento dos seus campos. O painel 'Cliente' possui os seguintes campos: 'CPF', 'Nome',
+'Data' que é automaticamente preenchido com a data atual e um campo para pesquisa do produto desejado denominado 'Pesquise um produto aqui' juntamente com uma tabela funcional integrada ao banco de dados que te
+fornece os dados do produto pesquisado. O painel 'Produto' é responsável por detalhar o produto escolhido, sendo seus campos: 'Código', 'Produto' escolhido, que se autopreenche após a escolha, o 'Preço' que também se
+autopreenche em R$, a 'Quantidade' desejada do produto escolhido e o 'Desconto em %' que pode ser aplicado ao produto. O painel 'Carrinho' te fornece os dados da sua compra com o Código, Descrição, Quantidade, Preço e o
+Subtotal a ser pago referente a quantidade escolhida. Após o preenchimento de todas as informações, o painel 'Total da Venda' te fornece o total a ser pago referente a compra e dois botões com opções para 'Pagamento' e
+'Cancelar' a compra.
+
 
 
 
