@@ -45,6 +45,11 @@ O sistema para Cadastro de Fornecedores não distingue-se totalmente do Cadastro
 06 - FormularioProdutos.java
 O formulário para Cadastro de Produtos consiste no preenchimento de 'Descrição' (nome do produto), 'Preço' (em R$), uma caixa clicável para a definição do 'Fornecedor' (que pode ser registrada no Formulário de Fornecedores) e o campo de 'Qtd Estoque' que fornece a quantidade exata dos produtos que já existem no sistema ou que pode ser adicionada ao mesmo. Os botões cujas funções já foram detalhadas se resumem ao 'NOVO' para limpar os campos, 'SALVAR' para registrar um novo produto no banco de dados do sistema, o 'EDITAR' para alterar um dado referente ao produto escolhido e o 'EXCLUIR' para apagar um produto do banco de dados do sistema. Ao lado, o formulário conta com a aba Consulta de Produtos responsável por fornecer dados do produto pesquisado no campo 'Descrição' dentro da tabela abaixo integrada ao banco de dados do sistema.
 
+07 - FormularioEstoque.java
+O sistema responsável pelo estoque do sistema consiste em apenas adição de novos produtos com base na descrição do mesmo. Com os campos 'Código', 'Descrição' para preenchimento do nome do produto a ser ajustado,
+'Quantidade atual' que se autopreenche após o uso do botão 'Pesquisar', o 'Quantidade' para preenchimento manual com a quantidade que desejo adicionar e ao lado o botão 'Adicionar' para cumprir tal incumbência. Abaixo
+dos campos, assim como em todos os Formulários, eu possuo uma tabela contendo a lista dos produtos já registrados no banco de dados.
+
 
 
 
