@@ -20,5 +20,10 @@ dependendo do usuário logado, porém seus recursos são somente com o banco de 
 
 02 - FormularioLogin.java
 O formulário de Login é a tela que antecede a Área de Trabalho, visto que seus campos para preenchimento são 'Email' e 'Senha' (já registrados no sistema no Formulário de Funcionários). Dependendo das informações que forem
-inseridas nesses campos, o usuário pode não ser logado devido a erros de digitação, pode acessar a Área de Trabalho para usuários com permissão de Administrador ou com permissão para Usuário. A tela contém botões responsáveis
-por tentar o acesso ao sistema 'Entrar' ou cancelar a entrada 'Cancelar'.
+inseridas nesses campos, o usuário pode não ser logado devido a erros de digitação, pode acessar a Área de Trabalho para usuários com permissão de Administrador ou com permissão para Usuário. A tela contém botões responsáveis por tentar o acesso ao sistema 'Entrar' ou cancelar a entrada 'Cancelar'.
+
+03 - FormularioDeClientes.java
+O sistema para Cadastro de Clientes se responsabiliza pelo cadastro, remoção e edição de novos clientes dentro do sistema. Integrado com a opção de 'Consulta de Clientes', acessível a
+pesquisa referente a qualquer cliente já registrado dentro do banco de dados do sistema com botão funcional para "pesquisar" e após o clique em qualquer funcionário pesquisado, o mesmo terá suas informações
+preenchidas automaticamente nos campos de 'Dados Pessoais'. Referente aos campos na aba 'Dados Pessoais', o programa conta com o preenchimento de 'Nome', 'Email', 'Endereço', 'Bairro', 'RG', 'Celular', 'CEP',
+'Cidade', 'CPF', 'Telefone', 'Número', 'Complemento' e uma caixa clicável para seleção de UF.
