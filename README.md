@@ -11,6 +11,7 @@ consideração que todo o projeto precisaria estar integrado a ela.
 
 
 **INSTRUÇÕES PARA EXECUTAR O SISTEMA**
+
 01 - AreaDeTrabalho.java
 O sistema não começa necessariamente na área de trabalho, visto que existe uma tela de login que permite a entrada de usuário e administrador. Recapitulando
 essa etapa, a área de trabalho é composta pela aba Clientes com opção para acessar o Formulário de Clientes, pela aba Funcionários para acessar o Formulário de Funcionários,
@@ -27,3 +28,12 @@ O sistema para Cadastro de Clientes se responsabiliza pelo cadastro, remoção e
 pesquisa referente a qualquer cliente já registrado dentro do banco de dados do sistema com botão funcional para "pesquisar" e após o clique em qualquer funcionário pesquisado, o mesmo terá suas informações
 preenchidas automaticamente nos campos de 'Dados Pessoais'. Referente aos campos na aba 'Dados Pessoais', o programa conta com o preenchimento de 'Nome', 'Email', 'Endereço', 'Bairro', 'RG', 'Celular', 'CEP',
 'Cidade', 'CPF', 'Telefone', 'Número', 'Complemento' e uma caixa clicável para seleção de UF.
+
+04 - FormularioFuncionarios.java
+O sistema para Cadastro de Funcionários consiste no preenchimento 'Nome', 'Email', 'Endereço', 'Bairro', 'RG', 'Celular', 'CEP', 'Cidade', 'CNPJ', 'Telefone', 'Número', 'Complemento'
+'Senha' para entrada e gerenciamento do sistema, 'Cargo' em que atua, uma caixa clicável para seleção de UF e outra para a seleção de suas permissões no sistema, sendo elas 'Usuário' ou 'Administrador'. Permissões de
+Administradores são absolutas e de Usuário são restringidas, visto que não poderá modificar alguns formulários assim que acessar a Área de Trabalho. O sistema conta com botões funcionais para a limpeza dos campos (NOVO),
+adição de novos funcionários dentro do sistema (SALVAR), edição de algum dado referente aos funcionários (EDITAR) e exclusão de algum funcionário que foi desligado da empresa (EXCLUIR). Ao lado temos a aba de Consulta de
+Funcionários onde podemos pesquisar quaisquer funcionários já registrados dentro do banco de dados.
+
+
