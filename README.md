@@ -78,6 +78,11 @@ Após clicar em 'Pagamento' no FormulárioVendas.java, o sistema te direciona au
 'Cartão' ou 'Cheque' juntamente com o campo 'Observações' cujo seu preenchimento é totalmente opcional. Os campos 'Troco' e 'Total' se autopreenchem com base no valor informado para pagamento. O botão 'PAGAR' finaliza
 o processo de compra.
 
+11 - FormularioHistorico.java
+
+O formulário para histórico resume-se ao preenchimento de dois campos formatados referentes a datas, sendo eles 'Data início' e 'Data fim' e assim o sistema processa as vendas realizadas nesse intervalo de tempo no qual
+foi preenchido dentro da tabela abaixo dos campos, contendo 'Código' do produto, 'Cliente' que fez a compra, 'Data da Venda', 'Total da Venda' e 'Observações'.
+
 
 
 
