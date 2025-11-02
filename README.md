@@ -83,6 +83,10 @@ o processo de compra.
 O formulário para histórico resume-se ao preenchimento de dois campos formatados referentes a datas, sendo eles 'Data início' e 'Data fim' e assim o sistema processa as vendas realizadas nesse intervalo de tempo no qual
 foi preenchido dentro da tabela abaixo dos campos, contendo 'Código' do produto, 'Cliente' que fez a compra, 'Data da Venda', 'Total da Venda' e 'Observações'.
 
+12 - FormularioTotalDoDia.java
+
+O formulário Total do Dia fornece informações referente ao total em R$ que entrou no caixa durante a data especificada no campo formatado 'Data:', e após o clique em 'Pesquisar' eu possuo o valor obtido durante as 24h da data informada no campo abaixo.
+
 
 
 
